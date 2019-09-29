@@ -1,0 +1,35 @@
+/** Colors **/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F4F4F6;
+  font-family: Quicksand, sans-serif; }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: white;
+  height: 4.86%; }
+  .navigation a {
+    text-decoration: none;
+    color: black; }
+  .navigation .nav-item {
+    margin: auto 9.72%; }
+    .navigation .nav-item .nav-list {
+      display: inline-flex;
+      justify-content: center;
+      list-style-type: none; }
+      .navigation .nav-item .nav-list .list-item {
+        margin-left: 30px; }
+      .navigation .nav-item .nav-list .list-item:first-child:last-child {
+        margin-left: 0; }
+      .navigation .nav-item .nav-list .nav-button {
+        border: 1px solid #BC9CFF;
+        border-radius: 22px;
+        color: #BC9CFF; }
+      .navigation .nav-item .nav-list .register-button {
+        color: white;
+        background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%); }
+
+/*# sourceMappingURL=headers-and-footers.css.map */
