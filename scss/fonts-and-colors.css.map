@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,cAAc;AASd,aAAa",
+"sources": ["fonts-and-colors.scss"],
 "names": [],
 "file": "fonts-and-colors.css"
 }

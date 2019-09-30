@@ -1,35 +1,96 @@
 /** Colors **/
+/** Fonts **/
 body {
   margin: 0;
   padding: 0;
   background-color: #F4F4F6;
-  font-family: Quicksand, sans-serif; }
+  font-family: Quicksand, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px; }
 
 .navigation {
   display: flex;
   justify-content: space-between;
   align-content: center;
   background-color: white;
-  height: 4.86%; }
-  .navigation a {
-    text-decoration: none;
-    color: black; }
+  min-height: 1.92%;
+  max-height: 4.86%;
+  margin-top: 55px;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05); }
   .navigation .nav-item {
+    display: inline-flex;
     margin: auto 9.72%; }
+    .navigation .nav-item a {
+      text-decoration: none;
+      color: rgba(31, 32, 65, 0.5); }
+    .navigation .nav-item a.home {
+      font-weight: bold;
+      color: #1F2041; }
+    .navigation .nav-item a:hover {
+      color: rgba(31, 32, 65, 0.75); }
     .navigation .nav-item .nav-list {
       display: inline-flex;
       justify-content: center;
       list-style-type: none; }
       .navigation .nav-item .nav-list .list-item {
-        margin-left: 30px; }
+        margin-left: 2em;
+        white-space: nowrap; }
       .navigation .nav-item .nav-list .list-item:first-child:last-child {
         margin-left: 0; }
-      .navigation .nav-item .nav-list .nav-button {
-        border: 1px solid #BC9CFF;
-        border-radius: 22px;
-        color: #BC9CFF; }
-      .navigation .nav-item .nav-list .register-button {
-        color: white;
-        background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%); }
+  .navigation .nav-item:first-child {
+    margin-right: 0; }
+
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: white;
+  min-height: 1.92%;
+  max-height: 4.86%;
+  margin-top: 55px; }
+  .main-footer .item {
+    display: flex;
+    flex-direction: column;
+    margin-left: 126px;
+    margin-right: 0; }
+    .main-footer .item h2 {
+      font-family: Quicksand, sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 24px;
+      color: #1F2041;
+      font-weight: bold;
+      white-space: nowrap; }
+    .main-footer .item h3 {
+      font-family: Quicksand, sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 24px;
+      color: rgba(31, 32, 65, 0.75);
+      font-weight: normal; }
+    .main-footer .item p {
+      white-space: nowrap;
+      color: rgba(31, 32, 65, 0.25);
+      font-family: Quicksand, sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 24px; }
+    .main-footer .item a {
+      text-decoration: none; }
+    .main-footer .item a:hover p {
+      color: rgba(31, 32, 65, 0.75); }
+  .main-footer .item:first-child {
+    margin-left: 9.12%;
+    min-width: 18%; }
+    .main-footer .item:first-child p {
+      white-space: normal;
+      color: rgba(31, 32, 65, 0.75); }
+  .main-footer .item:last-child {
+    margin-right: 9.12%; }
 
 /*# sourceMappingURL=headers-and-footers.css.map */

@@ -1,5 +1,32 @@
-$font-stack: Quicksand, sans-serif;
-
 /** Colors **/
 
 $purple: #BC9CFF;
+$dark-shade-100: #1F2041;
+$dark-shade-75: rgba(31, 32, 65, 0.75);
+$dark-shade-50: rgba(31, 32, 65, 0.5);
+$dark-shade-25: rgba(31, 32, 65, 0.25);
+$dark-shade-5: rgba(31, 32, 65, 0.05);
+
+/** Fonts **/
+
+$font-stack: Quicksand, sans-serif;
+
+// $fontface: (
+//   font-family: $font-stack;
+//   src: url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+//
+//   color: $dark-shade-75;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 14px;
+//   line-height: 24px;
+// )
+
+@mixin font-face($font-family, $line-height, $size:normal, $weight:normal, $style:normal){
+  font-family: $font-family;
+  font-weight: $weight;
+  font-style: $style;
+  font-size: $size;
+
+  line-height: $line-height;
+}
